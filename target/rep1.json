@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10321435300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.chrome()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "search and validate",
+        "description": "",
+        "id": "practise;search-and-validate",
+        "after": [
+          {
+            "result": {
+              "duration": 721101400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3830271900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "land in greenkart",
+            "match": {
+              "location": "stepdefinition.land_in_greenkart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5555194500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select \"cucumber\" and select count as \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cucumber",
+                  "offset": 8
+                },
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinition.select_something_and_select_count_as_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15253636100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "add product to cart and checkout",
+            "match": {
+              "location": "stepdefinition.add_product_to_cart_and_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54227000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the selected item",
+            "match": {
+              "location": "stepdefinition.validate_the_selected_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Newtest"
+          }
+        ]
+      }
+    ],
+    "name": "Practise",
+    "description": "",
+    "id": "practise",
+    "keyword": "Feature",
+    "uri": "src/test/java/feature/Practise.feature"
+  }
+]
